@@ -1,0 +1,39 @@
+    1  cd mysite
+    2  git status
+    3  git add .
+    4  git commit -m "nodename: glenn-liveweb1"
+    5  mkvirtualenv flask-tutorial --python=python3.6
+    6  pip install flask flask-login flask-sqlalchemy mysql-connector-python
+    7  git status
+    8  pip freeze > requirements.txt
+    9  git status
+   10  git add .
+   11  git commit -m "werkzeug-0.14.1 click--6.7"
+   12  pip install Flask-Migrate
+   13  export FLASK_APP=flask_app.py
+   14  flask db init
+   15  git status
+   16  git add .
+   17  git commit -m "/.cache/pip/wheels/15/35/24"
+   18  flask db migrate
+   19  flask db stamp head
+   20  pip freeze > requirements.txt
+   21  git status
+   22  git add .
+   23  git commit -m "reponse a un halbard"
+   24  flask db migrate
+   25  flask db upgrade
+   26  git status
+   27  git add .
+   28  git commit -m "une passion pour la peinture acrylique"
+   29  flask db migrate
+   30  flask db upgrade
+   31  flask shell
+   32  echo "# https-www.pythonanywhere.com-user-piovittoriovigo-consoles-9980624-" >> README.md
+   33  git init
+   34  git add README.md
+   35  git commit -m "first commit"
+   36  git remote add origin https://github.com/benoitsevres/https-www.pythonanywhere.com-user-piovittoriovigo-consoles-9980624-.git
+   37  git push -u origin master
+   38  history
+   39  history > history.txt
